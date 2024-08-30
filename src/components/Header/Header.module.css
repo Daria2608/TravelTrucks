@@ -1,0 +1,25 @@
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background-color: var(--inputs);
+    padding: 24px 64px;
+}
+
+.navigation {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.logo {
+    color: var(--main);
+    font-size: 16px;
+    font-weight:900;
+}
+
+.trucks {
+    color: var(--text);
+}
